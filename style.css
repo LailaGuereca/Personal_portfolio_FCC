@@ -101,5 +101,32 @@ footer {
 }
 
 .portfolio-section p {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.swords {
+    width: 8%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    text-align: center;
+}
+
+.project-img {
+    width: 40%;
+}
+
+.project {
+    text-decoration: none;
+}
+
+.project p {
+    color: #100F0F;
+    line-height: 1.4;
 }

@@ -130,3 +130,37 @@ footer {
     color: #100F0F;
     line-height: 1.4;
 }
+
+/*Contact section rules*/
+.contact-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-section h2 {
+    font-size: 45px;
+}
+
+.contact-section p {
+    font-size: 25px;
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #100F0F;
+}
+
+.icons {
+    width: 50%;
+}

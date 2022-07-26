@@ -164,3 +164,14 @@ footer {
 .icons {
     width: 50%;
 }
+
+/*Footer rules*/
+footer {
+    background: #100F0F;
+    color: #F1F1F1;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+}

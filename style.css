@@ -69,6 +69,37 @@ footer {
     font-size: 30px;
 }
 
-.hearts {
-    width: 20%;
+/*About section rules*/
+.about-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-section h2 {
+    font-size: 45px;
+}
+
+.about-section p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*Portfolio section rules*/
+.portfolio-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio-section h2 {
+    font-size: 45px;
+}
+
+.portfolio-section p {
+    font-size: 25px;
 }
